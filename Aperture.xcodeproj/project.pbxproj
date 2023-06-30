@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0366E42D2A8B3882F31CBC43 /* Pods_ApertureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE2059D645BAD96A2CC9741 /* Pods_ApertureTests.framework */; };
+		0E268FBA98A04431FAD9C6C5 /* Pods_Aperture_ApertureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D05C6E2BF81F52B1902434C /* Pods_Aperture_ApertureUITests.framework */; };
+		AC34F59935E54843D851EA85 /* Pods_Aperture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD28953BAE403BEDFCDF181F /* Pods_Aperture.framework */; };
+		E84B1ACD27EBADCA00C1A8A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B1ACC27EBADCA00C1A8A9 /* AppDelegate.swift */; };
+		E84B1ACF27EBADCA00C1A8A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B1ACE27EBADCA00C1A8A9 /* SceneDelegate.swift */; };
+		E84B1AD427EBADCA00C1A8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84B1AD227EBADCA00C1A8A9 /* Main.storyboard */; };
+		E84B1AD627EBADCB00C1A8A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84B1AD527EBADCB00C1A8A9 /* Assets.xcassets */; };
+		E84B1AD927EBADCB00C1A8A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84B1AD727EBADCB00C1A8A9 /* LaunchScreen.storyboard */; };
+		E84B1AE427EBADCC00C1A8A9 /* ApertureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B1AE327EBADCC00C1A8A9 /* ApertureTests.swift */; };
+		E84B1AEE27EBADCC00C1A8A9 /* ApertureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B1AED27EBADCC00C1A8A9 /* ApertureUITests.swift */; };
+		E84B1AF027EBADCC00C1A8A9 /* ApertureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B1AEF27EBADCC00C1A8A9 /* ApertureUITestsLaunchTests.swift */; };
+		E8BC0B6A27EBB47E00988816 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BC0B6927EBB47E00988816 /* LoginViewController.swift */; };
+		E8BC0B6C27EBB49F00988816 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BC0B6B27EBB49F00988816 /* FeedViewController.swift */; };
+		E8BC0B6E27EBCB8000988816 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BC0B6D27EBCB8000988816 /* CameraViewController.swift */; };
+		E8BC0B7027EBDC5400988816 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BC0B6F27EBDC5400988816 /* PostCell.swift */; };
+		E8C482C027F65742002AE48B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C482BF27F65742002AE48B /* CommentCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E84B1AE027EBADCC00C1A8A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84B1AC127EBADCA00C1A8A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84B1AC827EBADCA00C1A8A9;
+			remoteInfo = Aperture;
+		};
+		E84B1AEA27EBADCC00C1A8A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84B1AC127EBADCA00C1A8A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84B1AC827EBADCA00C1A8A9;
+			remoteInfo = Aperture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE2059D645BAD96A2CC9741 /* Pods_ApertureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApertureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D05C6E2BF81F52B1902434C /* Pods_Aperture_ApertureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aperture_ApertureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57ECF38FA3A96CD906F3E4CE /* Pods-ApertureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApertureTests.debug.xcconfig"; path = "Target Support Files/Pods-ApertureTests/Pods-ApertureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BB16888080A4D471611E349 /* Pods-Aperture-ApertureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aperture-ApertureUITests.debug.xcconfig"; path = "Target Support Files/Pods-Aperture-ApertureUITests/Pods-Aperture-ApertureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB818EDCEEF3EFA3BCBE2CC1 /* Pods-ApertureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApertureTests.release.xcconfig"; path = "Target Support Files/Pods-ApertureTests/Pods-ApertureTests.release.xcconfig"; sourceTree = "<group>"; };
+		D47A3F9A5F8CF371B939BB95 /* Pods-Aperture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aperture.debug.xcconfig"; path = "Target Support Files/Pods-Aperture/Pods-Aperture.debug.xcconfig"; sourceTree = "<group>"; };
+		DB3F46CBBA8743D13DDE76FB /* Pods-Aperture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aperture.release.xcconfig"; path = "Target Support Files/Pods-Aperture/Pods-Aperture.release.xcconfig"; sourceTree = "<group>"; };
+		DD28953BAE403BEDFCDF181F /* Pods_Aperture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aperture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84B1AC927EBADCA00C1A8A9 /* Aperture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aperture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84B1ACC27EBADCA00C1A8A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E84B1ACE27EBADCA00C1A8A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E84B1AD327EBADCA00C1A8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E84B1AD527EBADCB00C1A8A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E84B1AD827EBADCB00C1A8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E84B1ADA27EBADCB00C1A8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84B1ADF27EBADCC00C1A8A9 /* ApertureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApertureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84B1AE327EBADCC00C1A8A9 /* ApertureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApertureTests.swift; sourceTree = "<group>"; };
+		E84B1AE927EBADCC00C1A8A9 /* ApertureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApertureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84B1AED27EBADCC00C1A8A9 /* ApertureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApertureUITests.swift; sourceTree = "<group>"; };
+		E84B1AEF27EBADCC00C1A8A9 /* ApertureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApertureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8BC0B6927EBB47E00988816 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E8BC0B6B27EBB49F00988816 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E8BC0B6D27EBCB8000988816 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E8BC0B6F27EBDC5400988816 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E8C482BF27F65742002AE48B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		FF2F9A00ABEA09DFB85AAA6F /* Pods-Aperture-ApertureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aperture-ApertureUITests.release.xcconfig"; path = "Target Support Files/Pods-Aperture-ApertureUITests/Pods-Aperture-ApertureUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84B1AC627EBADCA00C1A8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC34F59935E54843D851EA85 /* Pods_Aperture.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1ADC27EBADCC00C1A8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0366E42D2A8B3882F31CBC43 /* Pods_ApertureTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1AE627EBADCC00C1A8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E268FBA98A04431FAD9C6C5 /* Pods_Aperture_ApertureUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FE138ADC4C0369ECA0F8F18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD28953BAE403BEDFCDF181F /* Pods_Aperture.framework */,
+				3D05C6E2BF81F52B1902434C /* Pods_Aperture_ApertureUITests.framework */,
+				1AE2059D645BAD96A2CC9741 /* Pods_ApertureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A72B01BDD4EA163D9452F5CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D47A3F9A5F8CF371B939BB95 /* Pods-Aperture.debug.xcconfig */,
+				DB3F46CBBA8743D13DDE76FB /* Pods-Aperture.release.xcconfig */,
+				7BB16888080A4D471611E349 /* Pods-Aperture-ApertureUITests.debug.xcconfig */,
+				FF2F9A00ABEA09DFB85AAA6F /* Pods-Aperture-ApertureUITests.release.xcconfig */,
+				57ECF38FA3A96CD906F3E4CE /* Pods-ApertureTests.debug.xcconfig */,
+				AB818EDCEEF3EFA3BCBE2CC1 /* Pods-ApertureTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E84B1AC027EBADCA00C1A8A9 = {
+			isa = PBXGroup;
+			children = (
+				E84B1ACB27EBADCA00C1A8A9 /* Aperture */,
+				E84B1AE227EBADCC00C1A8A9 /* ApertureTests */,
+				E84B1AEC27EBADCC00C1A8A9 /* ApertureUITests */,
+				E84B1ACA27EBADCA00C1A8A9 /* Products */,
+				A72B01BDD4EA163D9452F5CD /* Pods */,
+				4FE138ADC4C0369ECA0F8F18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E84B1ACA27EBADCA00C1A8A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84B1AC927EBADCA00C1A8A9 /* Aperture.app */,
+				E84B1ADF27EBADCC00C1A8A9 /* ApertureTests.xctest */,
+				E84B1AE927EBADCC00C1A8A9 /* ApertureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E84B1ACB27EBADCA00C1A8A9 /* Aperture */ = {
+			isa = PBXGroup;
+			children = (
+				E84B1ACC27EBADCA00C1A8A9 /* AppDelegate.swift */,
+				E84B1ACE27EBADCA00C1A8A9 /* SceneDelegate.swift */,
+				E84B1AD227EBADCA00C1A8A9 /* Main.storyboard */,
+				E84B1AD527EBADCB00C1A8A9 /* Assets.xcassets */,
+				E84B1AD727EBADCB00C1A8A9 /* LaunchScreen.storyboard */,
+				E84B1ADA27EBADCB00C1A8A9 /* Info.plist */,
+				E8BC0B6927EBB47E00988816 /* LoginViewController.swift */,
+				E8BC0B6B27EBB49F00988816 /* FeedViewController.swift */,
+				E8BC0B6D27EBCB8000988816 /* CameraViewController.swift */,
+				E8BC0B6F27EBDC5400988816 /* PostCell.swift */,
+				E8C482BF27F65742002AE48B /* CommentCell.swift */,
+			);
+			path = Aperture;
+			sourceTree = "<group>";
+		};
+		E84B1AE227EBADCC00C1A8A9 /* ApertureTests */ = {
+			isa = PBXGroup;
+			children = (
+				E84B1AE327EBADCC00C1A8A9 /* ApertureTests.swift */,
+			);
+			path = ApertureTests;
+			sourceTree = "<group>";
+		};
+		E84B1AEC27EBADCC00C1A8A9 /* ApertureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E84B1AED27EBADCC00C1A8A9 /* ApertureUITests.swift */,
+				E84B1AEF27EBADCC00C1A8A9 /* ApertureUITestsLaunchTests.swift */,
+			);
+			path = ApertureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E84B1AC827EBADCA00C1A8A9 /* Aperture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84B1AF327EBADCC00C1A8A9 /* Build configuration list for PBXNativeTarget "Aperture" */;
+			buildPhases = (
+				544E3F574034A26B82F29818 /* [CP] Check Pods Manifest.lock */,
+				E84B1AC527EBADCA00C1A8A9 /* Sources */,
+				E84B1AC627EBADCA00C1A8A9 /* Frameworks */,
+				E84B1AC727EBADCA00C1A8A9 /* Resources */,
+				1097930D23992E126BE37C33 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aperture;
+			productName = Aperture;
+			productReference = E84B1AC927EBADCA00C1A8A9 /* Aperture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E84B1ADE27EBADCC00C1A8A9 /* ApertureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84B1AF627EBADCC00C1A8A9 /* Build configuration list for PBXNativeTarget "ApertureTests" */;
+			buildPhases = (
+				51F02F25CDF90761988330BF /* [CP] Check Pods Manifest.lock */,
+				E84B1ADB27EBADCC00C1A8A9 /* Sources */,
+				E84B1ADC27EBADCC00C1A8A9 /* Frameworks */,
+				E84B1ADD27EBADCC00C1A8A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84B1AE127EBADCC00C1A8A9 /* PBXTargetDependency */,
+			);
+			name = ApertureTests;
+			productName = ApertureTests;
+			productReference = E84B1ADF27EBADCC00C1A8A9 /* ApertureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E84B1AE827EBADCC00C1A8A9 /* ApertureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84B1AF927EBADCC00C1A8A9 /* Build configuration list for PBXNativeTarget "ApertureUITests" */;
+			buildPhases = (
+				9325787DBA0D67675DCD0808 /* [CP] Check Pods Manifest.lock */,
+				E84B1AE527EBADCC00C1A8A9 /* Sources */,
+				E84B1AE627EBADCC00C1A8A9 /* Frameworks */,
+				E84B1AE727EBADCC00C1A8A9 /* Resources */,
+				772FC13BA6F5538E52C69727 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84B1AEB27EBADCC00C1A8A9 /* PBXTargetDependency */,
+			);
+			name = ApertureUITests;
+			productName = ApertureUITests;
+			productReference = E84B1AE927EBADCC00C1A8A9 /* ApertureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84B1AC127EBADCA00C1A8A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E84B1AC827EBADCA00C1A8A9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					E84B1ADE27EBADCC00C1A8A9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E84B1AC827EBADCA00C1A8A9;
+					};
+					E84B1AE827EBADCC00C1A8A9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E84B1AC827EBADCA00C1A8A9;
+					};
+				};
+			};
+			buildConfigurationList = E84B1AC427EBADCA00C1A8A9 /* Build configuration list for PBXProject "Aperture" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E84B1AC027EBADCA00C1A8A9;
+			productRefGroup = E84B1ACA27EBADCA00C1A8A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84B1AC827EBADCA00C1A8A9 /* Aperture */,
+				E84B1ADE27EBADCC00C1A8A9 /* ApertureTests */,
+				E84B1AE827EBADCC00C1A8A9 /* ApertureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E84B1AC727EBADCA00C1A8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84B1AD927EBADCB00C1A8A9 /* LaunchScreen.storyboard in Resources */,
+				E84B1AD627EBADCB00C1A8A9 /* Assets.xcassets in Resources */,
+				E84B1AD427EBADCA00C1A8A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1ADD27EBADCC00C1A8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1AE727EBADCC00C1A8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1097930D23992E126BE37C33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aperture/Pods-Aperture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aperture/Pods-Aperture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aperture/Pods-Aperture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51F02F25CDF90761988330BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApertureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544E3F574034A26B82F29818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aperture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		772FC13BA6F5538E52C69727 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aperture-ApertureUITests/Pods-Aperture-ApertureUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aperture-ApertureUITests/Pods-Aperture-ApertureUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aperture-ApertureUITests/Pods-Aperture-ApertureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9325787DBA0D67675DCD0808 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aperture-ApertureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84B1AC527EBADCA00C1A8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BC0B6A27EBB47E00988816 /* LoginViewController.swift in Sources */,
+				E8BC0B6E27EBCB8000988816 /* CameraViewController.swift in Sources */,
+				E84B1ACD27EBADCA00C1A8A9 /* AppDelegate.swift in Sources */,
+				E8BC0B6C27EBB49F00988816 /* FeedViewController.swift in Sources */,
+				E84B1ACF27EBADCA00C1A8A9 /* SceneDelegate.swift in Sources */,
+				E8BC0B7027EBDC5400988816 /* PostCell.swift in Sources */,
+				E8C482C027F65742002AE48B /* CommentCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1ADB27EBADCC00C1A8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84B1AE427EBADCC00C1A8A9 /* ApertureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B1AE527EBADCC00C1A8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84B1AF027EBADCC00C1A8A9 /* ApertureUITestsLaunchTests.swift in Sources */,
+				E84B1AEE27EBADCC00C1A8A9 /* ApertureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E84B1AE127EBADCC00C1A8A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84B1AC827EBADCA00C1A8A9 /* Aperture */;
+			targetProxy = E84B1AE027EBADCC00C1A8A9 /* PBXContainerItemProxy */;
+		};
+		E84B1AEB27EBADCC00C1A8A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84B1AC827EBADCA00C1A8A9 /* Aperture */;
+			targetProxy = E84B1AEA27EBADCC00C1A8A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E84B1AD227EBADCA00C1A8A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84B1AD327EBADCA00C1A8A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E84B1AD727EBADCB00C1A8A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84B1AD827EBADCB00C1A8A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E84B1AF127EBADCC00C1A8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E84B1AF227EBADCC00C1A8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E84B1AF427EBADCC00C1A8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47A3F9A5F8CF371B939BB95 /* Pods-Aperture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B7NNPP56Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aperture/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecarrizales.Aperture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E84B1AF527EBADCC00C1A8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3F46CBBA8743D13DDE76FB /* Pods-Aperture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B7NNPP56Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aperture/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecarrizales.Aperture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E84B1AF727EBADCC00C1A8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57ECF38FA3A96CD906F3E4CE /* Pods-ApertureTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B7NNPP56Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecarrizales.ApertureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aperture.app/Aperture";
+			};
+			name = Debug;
+		};
+		E84B1AF827EBADCC00C1A8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB818EDCEEF3EFA3BCBE2CC1 /* Pods-ApertureTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B7NNPP56Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecarrizales.ApertureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aperture.app/Aperture";
+			};
+			name = Release;
+		};
+		E84B1AFA27EBADCC00C1A8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB16888080A4D471611E349 /* Pods-Aperture-ApertureUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B7NNPP56Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecarrizales.ApertureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aperture;
+			};
+			name = Debug;
+		};
+		E84B1AFB27EBADCC00C1A8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2F9A00ABEA09DFB85AAA6F /* Pods-Aperture-ApertureUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B7NNPP56Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddiecarrizales.ApertureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aperture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84B1AC427EBADCA00C1A8A9 /* Build configuration list for PBXProject "Aperture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84B1AF127EBADCC00C1A8A9 /* Debug */,
+				E84B1AF227EBADCC00C1A8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84B1AF327EBADCC00C1A8A9 /* Build configuration list for PBXNativeTarget "Aperture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84B1AF427EBADCC00C1A8A9 /* Debug */,
+				E84B1AF527EBADCC00C1A8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84B1AF627EBADCC00C1A8A9 /* Build configuration list for PBXNativeTarget "ApertureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84B1AF727EBADCC00C1A8A9 /* Debug */,
+				E84B1AF827EBADCC00C1A8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84B1AF927EBADCC00C1A8A9 /* Build configuration list for PBXNativeTarget "ApertureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84B1AFA27EBADCC00C1A8A9 /* Debug */,
+				E84B1AFB27EBADCC00C1A8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84B1AC127EBADCA00C1A8A9 /* Project object */;
+}

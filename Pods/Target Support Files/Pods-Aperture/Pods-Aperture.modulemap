@@ -1,0 +1,6 @@
+framework module Pods_Aperture {
+  umbrella header "Pods-Aperture-umbrella.h"
+
+  export *
+  module * { export * }
+}
