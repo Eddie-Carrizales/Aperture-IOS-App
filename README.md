@@ -17,10 +17,9 @@ Time spent: **12** hours spent in total
 - [✅] User can view the last 20 posts. 
 
 ## Video Walkthrough 1
-
+Link to the first demo: http://g.recordit.co/BRZihmxGhM.gif
 <img src='http://g.recordit.co/BRZihmxGhM.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Additional Link to the first demo: http://g.recordit.co/BRZihmxGhM.gif
 
 ## Video Walkthrough 2
 
